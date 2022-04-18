@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300;500&display=swap');
 
 * {
   margin: 0%;
@@ -16,45 +16,12 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background-color: white;
-  padding: 8px 0px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999999999;
-}
-
-header .header-logo {
-  margin-bottom: 0px;
-}
-
-header #menu-bar {
-  display: none;
-}
-
 @media screen and (max-width: 768px) {
   header #menu-bar {
     display: block;
     border: 1px solid gray;
     padding: 4px 6px;
     cursor: pointer;
-  }
-
-  header .navbar {
-    display: none;
-  }
-
-  header {
-    justify-content: space-between;
-  }
-
-  header .header-logo {
-    margin: 0px 24px;
   }
 
   header #menu-bar {
@@ -94,11 +61,6 @@ header #menu-bar {
   
 }
 
-header .logo-link {
-  text-decoration: none;
-  color: blue;
-}
-
 .navbar {
   box-sizing: border-box;
   box-shadow: 12px gray;
@@ -112,7 +74,9 @@ header .logo-link {
   text-transform: uppercase;
 }
 
-
+.brand-color{
+  color: #081a62;
+}
 
 .nav-list {
   display: flex;
@@ -123,12 +87,12 @@ header .logo-link {
 .nav-item-link {
   margin: 0px 18px;
   text-decoration: none;
-  color: blue;
+  color: #081a62;
   font-size: 18px;
 }
 
 .nav-item-link:hover {
-  background-color: rgb(0, 100, 251);
+  background-color: #081a62;
   color: white;
   padding: 4px 8px;
   transition: 0.4s all ease;
@@ -166,6 +130,15 @@ header .logo-link {
   /* z-index: 67; */
 }
 
+.home-section-btn-link{
+  border-color: #FF8C32;
+  color: #FF8C32;
+}
+
+.home-section-btn-link:hover{
+  border-color: #FF8C32;
+  background-color: #FF8C32;
+}
 @keyframes floating{
     0%{
         transform: translateY(0px);
@@ -185,7 +158,7 @@ header .logo-link {
 }
 
 .section-heading span {
-  color: blue;
+  color: #081a62;
 }
 
 .special-card-image{
@@ -258,7 +231,6 @@ header .logo-link {
 }
 
 .popular-text{
-  background-color: rgb(0, 100, 251);
   position: absolute;
   top: 12px;
   left: 12px;
@@ -355,6 +327,7 @@ header .logo-link {
 .lower-section-content{
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .order-container{
@@ -413,4 +386,31 @@ header .logo-link {
 
 .footer{
   padding: 22px 0px 22px 0px;
+}
+
+
+
+.btn-orange{
+  border-color: #FF8C32;
+  color: #FF8C32;
+}
+
+.btn-orange:hover{
+  border-color: #FF8C32;
+  background-color: #FF8C32;
+}
+
+.price-btn{
+  background-color: #FF8C32;
+  border-color: #FF8C32;
+  color: white;
+}
+
+.order-btn-orange:hover{
+  border-color: #FF8C32;
+  color: white;
+}
+
+.bg-body-color{
+  background-color: #f1f1f1;
 }
