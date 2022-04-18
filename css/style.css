@@ -430,6 +430,33 @@ body{
   box-shadow:  0 0.5rem 1rem rgba(241, 234, 234, 0.855);
 }
 
-/* .bt-icon{
-  float: right;
-} */
+.btn-all{
+  color: #FF8C32;
+  background-color: white;
+  border: 1px solid #FF8C32;
+  padding: 5px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  outline: #FF8C32;
+  transition: 0.3s all ease;
+}
+
+.btn-all:hover{
+  background-color: #FF8C32;
+  color: white;
+}
+
+.btn-contact{
+  color: #FF8C32;
+  border: 1px solid #FF8C32;
+  padding: 5px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  outline: #FF8C32;
+  transition: 0.3s all ease;
+}
+
+.btn-contact:hover{
+  background-color: #FF8C32;
+  color: white;
+}
